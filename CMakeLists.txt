@@ -52,16 +52,14 @@ target_link_options(VoxGlitch PRIVATE
     -Wl,--gc-sections
 )
 
-# Source files
-file(GLOB_RECURSE VOXGLITCH_SOURCES
-    ${SOURCE_DIR}/src/plugin.cpp
-    ${SOURCE_DIR}/src/autobreak.cpp
-)
-
 # Explicitly add the main ByteBeat.cpp file but none of the others
 target_sources(VoxGlitch PRIVATE
-    ${VOXGLITCH_SOURCES}
     ${SOURCE_DIR}/src/ByteBeat.cpp
+    ${SOURCE_DIR}/src/plugin.cpp
+    ${SOURCE_DIR}/src/autobreak.cpp
+    ${SOURCE_DIR}/src/DrumRandomizer.cpp
+    ${SOURCE_DIR}/src/GlitchSequencer.cpp
+    ${SOURCE_DIR}/src/Ghosts.cpp
 )
 
 # Include directories
@@ -69,6 +67,7 @@ target_include_directories(VoxGlitch PRIVATE
     ${SOURCE_DIR}/src
     ${SOURCE_DIR}/src/Autobreak
     ${SOURCE_DIR}/src/ByteBeat
+    ${METAMODULE_SDK_DIR}/metamodule-rack-interface/dep/include/GLFW
 )
 
 # Create the plugin
