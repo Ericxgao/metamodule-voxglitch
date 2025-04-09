@@ -1,12 +1,72 @@
 {
     "MetaModulePluginMaintainer": "oksami",
     "MetaModulePluginMaintainerEmail": "itsoksami@gmail.com",
-    "MetaModulePluginMaintainerUrl": "https://github.com/Ericxgao/metamodule-kompas",
-    "MetaModuleDescription": "Kompas for MetaModule",
+    "MetaModulePluginMaintainerUrl": "https://github.com/Ericxgao/metamodule-voxglitch",
+    "MetaModuleDescription": "VoxGlitch for MetaModule",
     "MetaModuleIncludedModules": [
         {
-            "slug": "Kompas",
-            "name": "Kompas"
+            "slug": "autobreak",
+            "name": "Autobreak"
+        },
+        {
+            "slug": "bytebeat",
+            "name": "Byte Beat"
+        },
+        {
+            "slug": "drumrandomizer",
+            "name": "Drum Randomizer"
+        },
+        {
+            "slug": "glitchsequencer",
+            "name": "Glitch Sequencer"
+        },
+        {
+            "slug": "ghosts",
+            "name": "Ghosts"
+        },
+        {
+            "slug": "GrainEngineMK2",
+            "name": "Grain Engine MK2"
+        },
+        {
+            "slug": "grainfx",
+            "name": "Grain Fx"
+        },
+        {
+            "slug": "hazumi",
+            "name": "Hazumi"
+        },
+        {
+            "slug": "onepoint",
+            "name": "One Point"
+        },
+        {
+            "slug": "onezero",
+            "name": "One Zero"
+        },
+        {
+            "slug": "looper",
+            "name": "Looper"
+        },
+        {
+            "slug": "noteDetector",
+            "name": "Note Detector"
+        },
+        {
+            "slug": "repeater",
+            "name": "Repeater"
+        },
+        {
+            "slug": "samplerx8",
+            "name": "SamplerX8"
+        },
+        {
+            "slug": "vector_rotation",
+            "name": "Vector Rotation"
+        },
+        {
+            "slug": "wavbank",
+            "name": "Wav Bank"
         }
     ]
 }
