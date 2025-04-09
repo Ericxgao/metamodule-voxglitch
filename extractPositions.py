@@ -63,7 +63,11 @@ def extract_positions(svg_file):
 
     scale_x = 1.04
     scale_y = 1.04
-    
+
+    if "ghosts" in svg_file or "samplerx8" in svg_file:
+        scale_x = 2.96
+        scale_y = 2.96
+
     # Find all elements with IDs
     positions = {}
     for elem in root.findall(".//*[@id]"):

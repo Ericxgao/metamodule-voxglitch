@@ -60,6 +60,20 @@ target_sources(VoxGlitch PRIVATE
     ${SOURCE_DIR}/src/DrumRandomizer.cpp
     ${SOURCE_DIR}/src/GlitchSequencer.cpp
     ${SOURCE_DIR}/src/Ghosts.cpp
+    ${SOURCE_DIR}/src/GrainEngineMK2.cpp
+    ${SOURCE_DIR}/src/GrainEngineMK2Expander.cpp
+    ${SOURCE_DIR}/src/GrainFx.cpp
+    ${SOURCE_DIR}/src/Hazumi.cpp
+    ${SOURCE_DIR}/src/Looper.cpp
+    ${SOURCE_DIR}/src/NoteDetector.cpp
+    ${SOURCE_DIR}/src/Repeater.cpp
+    ${SOURCE_DIR}/src/Satanonaut.cpp
+    ${SOURCE_DIR}/src/OnePoint.cpp
+    ${SOURCE_DIR}/src/OneZero.cpp
+    ${SOURCE_DIR}/src/SamplerX8.cpp
+    ${SOURCE_DIR}/src/VectorRotation.cpp
+    ${SOURCE_DIR}/src/wavbank.cpp
+    ${SOURCE_DIR}/src/Hazumi.cpp
 )
 
 # Include directories
