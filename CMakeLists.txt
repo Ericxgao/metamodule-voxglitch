@@ -87,7 +87,7 @@ target_include_directories(VoxGlitch PRIVATE
 # Create the plugin
 create_plugin(
     SOURCE_LIB      VoxGlitch
-    PLUGIN_NAME     VoxGlitch
+    PLUGIN_NAME     voxglitch
     PLUGIN_JSON     ${SOURCE_DIR}/plugin.json
     SOURCE_ASSETS   ${CMAKE_CURRENT_LIST_DIR}/assets
     DESTINATION     ${CMAKE_CURRENT_LIST_DIR}/metamodule-plugins
