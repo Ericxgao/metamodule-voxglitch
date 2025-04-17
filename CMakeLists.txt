@@ -57,6 +57,7 @@ target_sources(VoxGlitch PRIVATE
     ${SOURCE_DIR}/src/ByteBeat.cpp
     ${SOURCE_DIR}/src/plugin.cpp
     ${SOURCE_DIR}/src/autobreak.cpp
+    ${SOURCE_DIR}/src/AutobreakStudio.cpp
     ${SOURCE_DIR}/src/DrumRandomizer.cpp
     ${SOURCE_DIR}/src/GlitchSequencer.cpp
     ${SOURCE_DIR}/src/ghosts.cpp
